@@ -1,0 +1,23 @@
+<div class="container restaurantes-pesquisa">
+  <div class="row">
+
+    <h1 class="mb-3">Últimas notícias</h1>
+
+    <% @notices.each do |notice| %>
+
+      <div class="col-md-12 col-sm-12 pb-1 pl-0 mb-2">
+        <div class="card">
+          <div class="card-header">
+            <b><%= notice.titulo %></b>
+            <span class="float-right"><%= notice.created_at.strftime("%A %H:%M") %></span>
+          </div>
+          <div class="card-body">
+            <h4><%= notice.descricao %></h4>
+            Att.: <%= notice.collaborator.email %>
+          </div>
+        </div>
+      </div>
+
+    <% end %>
+  </div>
+</div>

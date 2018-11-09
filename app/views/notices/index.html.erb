@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Minhas notícias</h1>
+
+<% @notices.each do |notice| %>
+  <div class="col-md-12 col-sm-12 pb-1 pl-0">
+    <div class="card">
+      <div class="card-header">
+        <b><%= notice.titulo %></b>
+        <span class="float-right"><%= notice.created_at.strftime("%A %H:%M") %></span>
+        <span class="float-right"><%= link_to edit_notice_path(notice), class: 'mr-4 text-dark' do %><i class="material-icons">edit</i><% end %></span>
+        <span class="float-right"><%= link_to notice, method: :delete, data: {confirm: 'Você tem certeza disso?'}, class: 'mr-4 text-dark' do %><i class="material-icons">delete</i><% end %></span>
+      </div>
+      <div class="card-body">
+        <h4><%= notice.descricao %></h4>
+      </div>
+    </div>
+  </div>
+<% end %>
+<br>
+
+<%= link_to 'Nova noticia', new_notice_path, class: 'btn btn-outline-primary' %>
