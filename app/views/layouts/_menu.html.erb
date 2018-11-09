@@ -4,7 +4,7 @@
     <%= link_to 'Minhas notícias', notices_path, class: 'mr-4 text-dark' %>
     <p class="navbar-text pull-right m-0 p-0">
       <% if collaborator_signed_in? %>
-        Logged in as <strong><%= current_collaborator.email %></strong>.
+        Usuário <strong><%= current_collaborator.email %></strong>.
         <%= link_to 'Edit profile', edit_collaborator_registration_path, :class => 'btn btn-outline-primary' %> |
         <%= link_to "Logout", destroy_collaborator_session_path, method: :delete, :class => 'btn btn-outline-primary'  %>
       <% else %>
