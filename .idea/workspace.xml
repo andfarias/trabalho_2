@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0f6f751-4071-4929-80ca-2a85aa5d42cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/notices/homepage.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="c0f6f751-4071-4929-80ca-2a85aa5d42cc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -449,12 +445,12 @@
       <workItem from="1541457685381" duration="6263000" />
       <workItem from="1541600754833" duration="1866000" />
       <workItem from="1541682207563" duration="1173000" />
-      <workItem from="1541766453056" duration="8506000" />
+      <workItem from="1541766453056" duration="9106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17926000" />
+    <option name="totallyTimeSpent" value="18526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
